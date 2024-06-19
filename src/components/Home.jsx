@@ -22,7 +22,7 @@ function Home() {
 
 
     if (users.status == 'loading') {
-        return <h1>Loading Data from API....</h1>
+        return <h1>Loading data Pls Wait....</h1>
     }
     else if (users.status == 'failed') {
 
